@@ -1,0 +1,47 @@
+print("Hello World!")
+
+# Onde eu armazeno as informações 
+# Variáveis: valores localizados na memória
+# nomeados que variam com o tempo
+
+idade = 18
+endereco = "Avenida Cond. Elizabeth de Robiano"
+altura = 1.77 # padrão americano
+
+print(idade)
+print(endereco)
+print(altura)
+
+#Tipos de varáveis 
+
+# Tipos Numéricos 
+qtde_filhos : int = 2
+peso: float = 78.3
+
+# Tipos Literais 
+nome: str = input("Informe seu nome:")
+
+print(nome)
+
+# Será que eu posso pagar 
+# SIM  e NÃO
+# Qtde Parcelas 
+
+# Eu posso comprar?
+#SIM e NÃO 
+
+valor_carro = 90000.00
+dinheiro = float(input("Informe o valor da conta:"))
+
+#verdadeiro/falso, True or False
+if dinheiro >= valor_carro:
+    print(f'Posso comprar o carro de {valor_carro} reais')
+elif dinheiro >= 35000:
+    print("Pode comprar o carro parcelado")
+elif dinheiro >= 30000.00:
+    print("Pode comprar mais valor parcelado pela  loja")
+    
+    if dinheiro >= 30000.00:
+        print("Dar desconto de 3000,00 reais") 
+else: 
+    print("Deixar para próxima")
